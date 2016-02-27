@@ -12,7 +12,7 @@ This data is a collection of features calculated from accelerometer and gyroscop
 For more details of the input data sets see the /UCI/HAR/Dataset/README.txt file that is included in the zip file linked to above. 
 
 ##Data Cleaning & Summarization Process
-The input data was cleaned and summarized using the run_Analysis.R script. Here is a summary of the steps taken (see the run_Analysis.R script for details)
+The input data was cleaned and summarized using the run_Analysis.R script. Here is a summary of the steps taken (see the run_Analysis.R script for details)  
 1. input files are read  
 2. testing and training data are combined  
 3. column names are added to the data  
