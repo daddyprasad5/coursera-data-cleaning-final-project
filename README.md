@@ -13,13 +13,13 @@ For more details of the input data sets see the /UCI/HAR/Dataset/README.txt file
 
 ##Data Cleaning & Summarization Process
 The input data was cleaned and summarized using the run_Analysis.R script. Here is a summary of the steps taken (see the run_Analysis.R script for details)
-1. input files are read
-2. testing and training data are combined
-3. column names are added to the data
-4. a subset of the features are selected - means and stdev features only
-4. the activity and subject labels are added to the data. 
-5. a summary table is produced, given the mean of each feature
-6. the summary table is ordered and column names are cleaned
+*input files are read
+*testing and training data are combined
+*column names are added to the data
+*a subset of the features are selected - means and stdev features only
+*the activity and subject labels are added to the data. 
+*a summary table is produced, given the mean of each feature
+*the summary table is ordered and column names are cleaned
 
 ##Output File
 The output data is in the file summary.csv.  See the summary_codebook.md file for an explanation of the data. 
